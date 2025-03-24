@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Hero Section -->
+<div class="relative bg-primary">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="text-white">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                    Conectamos talento digital con causas sociales
+                </h1>
+                <p class="text-lg mb-8">
+                    Únete a nuestra comunidad de voluntarios digitales y ayuda a transformar organizaciones sociales a través de la tecnología.
+                </p>
+                <div class="space-x-4">
+                    <a href="/registro" class="inline-block bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-secondary hover:text-white transition duration-300">
+                        Ser Voluntario
+                    </a>
+                    <a href="/registro" class="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition duration-300">
+                        Registrar Organización
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" alt="Voluntariado" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Estadísticas -->
+<div class="bg-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-bold text-primary mb-2">500+</div>
+                <div class="text-gray-600">Voluntarios</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-primary mb-2">100+</div>
+                <div class="text-gray-600">Organizaciones</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-primary mb-2">300+</div>
+                <div class="text-gray-600">Proyectos</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-primary mb-2">50+</div>
+                <div class="text-gray-600">Ciudades</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Áreas de Voluntariado -->
+<div class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Áreas de Voluntariado</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Ofrecemos diversas oportunidades para que puedas aportar tus habilidades digitales en proyectos significativos.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Desarrollo Web</h3>
+                <p class="text-gray-600">
+                    Ayuda a crear sitios web y aplicaciones para organizaciones sociales.
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Diseño Digital</h3>
+                <p class="text-gray-600">
+                    Aporta tus habilidades de diseño para mejorar la presencia digital.
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Marketing Digital</h3>
+                <p class="text-gray-600">
+                    Gestiona redes sociales y estrategias de comunicación digital.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonios -->
+<div class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Testimonios</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Conoce las experiencias de nuestros voluntarios y organizaciones.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Voluntario" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Ana García</h4>
+                        <p class="text-gray-600">Desarrolladora Web</p>
+                    </div>
+                </div>
+                <p class="text-gray-600">
+                    "Una experiencia increíble poder ayudar a organizaciones sociales con mis habilidades técnicas."
+                </p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Voluntario" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Carlos Ruiz</h4>
+                        <p class="text-gray-600">Diseñador UX</p>
+                    </div>
+                </div>
+                <p class="text-gray-600">
+                    "Me ha permitido crecer profesionalmente mientras ayudo a causas importantes."
+                </p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Organización" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Laura Méndez</h4>
+                        <p class="text-gray-600">Fundación Esperanza</p>
+                    </div>
+                </div>
+                <p class="text-gray-600">
+                    "Los voluntarios han transformado nuestra presencia digital y nuestro impacto."
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="bg-primary py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">
+            ¿Listo para hacer la diferencia?
+        </h2>
+        <p class="text-white mb-8 max-w-2xl mx-auto">
+            Únete a nuestra comunidad y comienza a contribuir con tus habilidades digitales.
+        </p>
+        <div class="space-x-4">
+            <a href="/registro" class="inline-block bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-secondary hover:text-white transition duration-300">
+                Comenzar como Voluntario
+            </a>
+            <a href="/cupos" class="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition duration-300">
+                Ver Oportunidades
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
